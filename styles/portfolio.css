@@ -11,7 +11,9 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
 }
 
 .nav-title {
@@ -37,16 +39,18 @@ nav ul li {
     margin-left: 50px;
 }
 
-.header{
+.header {
     background: #FFF8F3;
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
     background-position: bottom right, bottom left;
 }
+
 /* Button Editing */
-.btn-contact{
+.btn-contact {
     margin-top: 30px;
 }
+
 .banner {
     display: flex;
     align-items: center;
@@ -58,18 +62,19 @@ nav ul li {
     font-size: 15px;
     color: white;
     width: 150px;
-    height: 64px;
+    height: 54px;
     background: #FD6E0A;
     border-radius: 5px;
     border: 0;
 }
-.btn-secondary{
+
+.btn-secondary {
     width: 160px;
-height: 64px;
-border: 1px solid orange;
-margin-left: 30px;
-background-color: #FFF8F3;
-font-weight: 600;
+    height: 64px;
+    border: 1px solid orange;
+    margin-left: 30px;
+    background-color: #FFF8F3;
+    font-weight: 600;
 }
 
 /* Banner Part */
@@ -90,7 +95,41 @@ font-weight: 600;
 
 .banner-description {
     font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+
+/* Main */
+/* About Section */
+main{
+    max-width: 1140px;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 130px;
+    background: #FFF8F3;
+border-radius: 10px;
+
+}
+.about-section {
+
+}
+.about-title{
+    padding-top: 131px;
+text-align: center;
+font-weight: 700;
+font-size: 35px;
+}
+.about-description{
+    font-weight: 400;
 font-size: 18px;
-line-height: 30px;
-color: #757575;
+padding: 10px 156px;
+line-height: 1.5;
+}
+.table{
+ margin: 20px 250px;
+}
+th{
+    padding-right: 10px;
 }
