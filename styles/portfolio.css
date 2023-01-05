@@ -37,7 +37,22 @@ nav ul li {
     margin-left: 50px;
 }
 
+.header{
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+}
 /* Button Editing */
+.btn-contact{
+    margin-top: 30px;
+}
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
 .btn-primary {
     font-weight: 600;
     font-size: 15px;
@@ -47,4 +62,35 @@ nav ul li {
     background: #FD6E0A;
     border-radius: 5px;
     border: 0;
+}
+.btn-secondary{
+    width: 160px;
+height: 64px;
+border: 1px solid orange;
+margin-left: 30px;
+background-color: #FFF8F3;
+font-weight: 600;
+}
+
+/* Banner Part */
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    color: #474747;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    color: #181818;
+    letter-spacing: 2px;
+}
+
+.banner-description {
+    font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #757575;
 }
