@@ -168,7 +168,87 @@ margin-top: 30px;
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
-    padding: 30px;
+    padding: 25px;
     line-height: 2.5;
     margin-right: 30px;
 }
+
+/* My Resume */
+.my-need{
+    display: flex;
+    gap: 12px;
+}
+.resume-title{
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 130px;
+margin-bottom: 113px;
+color: #474747;
+
+}
+
+.education h2{
+font-size: 30px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.experience h2{
+    font-size: 30px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.edu-1,.edu-2,.edu-3, h3{
+font-size: 25px;
+font-weight: 700;
+margin-top: 30px;
+}
+.university
+{
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 10px;
+color:#757575;
+
+}
+.edudescription{
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color:#757575;
+margin-top: 30px;
+border-bottom: 1px solid rgb(88, 87, 87);
+}
+
+[class^="exp-"]{
+    
+}
+.expdescription{
+    font-size: 16px;
+    margin-top: 40px;
+    color:#757575;
+    line-height: 1.7;
+    border-bottom: 1px solid rgb(88, 87, 87);
+}
+
+.cv-download{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer Part */
